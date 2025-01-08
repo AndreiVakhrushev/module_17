@@ -19,7 +19,7 @@ class CreateTask(BaseModel):
     content: str
     priority: int
 
-class UpdateTaskk(BaseModel):
+class UpdateTask(BaseModel):
     title: str
     content: str
     priority: int
